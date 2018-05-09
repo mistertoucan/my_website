@@ -1,0 +1,67 @@
+body {
+    font-family: "Courier New", Monospaced;
+    font-size: 14px;
+}
+
+#navigation {
+    width: 100%;
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#welcome {
+    width: 100%;
+    height: 35%;
+    min-height: 850px;
+    background-color: black;
+    color: white;
+}
+
+.textWrapper {
+    padding: 30% 15%;
+    text-align: center;
+}
+
+.contentSection {
+    width: 100%;
+}
+
+#introText {
+    font-family: "Courier New", Monospaced;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+br {
+    width: 50px;
+    display: block;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#creds {
+    background-color: navy;
+}
+
+#projects {
+    background-color: yellow;
+}
+
+#contact {
+    background-color: orange;
+}
+
+
+
