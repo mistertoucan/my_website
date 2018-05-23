@@ -1,12 +1,15 @@
 $(document).ready(function(){
 
-    setInterval(function() {
-        if(!($("#cursor").is(":visible"))) {
-            $("#cursor").fadeIn();
-        } else {
-            $("#cursor").fadeOut();
-        }
-    }, 1000);
+    var typed = new Typed("#subText", {
+        strings: ["I'm a Student...", "I'm a Developer...", "I'm an Entrepreneur..."],
+        typeSpeed: 100,
+        delay: 150,
+        smartBackspace: true,
+        loop: true,
+        startDelay: 100,
+        backSpeed: 30,
+        showCursor: false
+    })
 
 }) ;
 
